@@ -8,8 +8,9 @@ layout: default
   {% endif %}
 
   {{ content }}
-
-  {% if site.posts.size > 0 %}
+  {% if site.posts.size == 0 %}
+    <h2>Sorry ;( No post found.</h2>
+  {% else %}
     <ul class="post-list">
       {% for post in site.posts %}
         <li>
