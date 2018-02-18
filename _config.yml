@@ -31,6 +31,10 @@ plugins:
   - jekyll-feed
 permalink: /:year/:month/:day/:title
 
+# Disqus comments configuration
+shortname: minimal-blog-7
+
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
